@@ -1,0 +1,20 @@
+2021-08-09 22:13:02,617 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Starting SpingBootService1Application using Java 16 on DESKTOP-QML3MFJ with PID 25544 (C:\Users\duong\Downloads\SpingBootService1\target\classes started by duong in C:\Users\duong\Downloads\SpingBootService1)
+2021-08-09 22:13:02,627 [DEBUG] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Running with Spring Boot v2.5.2, Spring v5.3.8
+2021-08-09 22:13:02,627 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] No active profile set, falling back to default profiles: default
+2021-08-09 22:13:03,936 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-08-09 22:13:03,950 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-08-09 22:13:03,951 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-08-09 22:13:04,040 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-08-09 22:13:04,041 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1303 ms
+2021-08-09 22:13:04,654 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-09 22:13:04,667 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Started SpingBootService1Application in 2.577 seconds (JVM running for 3.83)
+2021-08-09 22:13:25,336 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-09 22:13:25,336 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-08-09 22:13:25,337 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-08-09 22:13:25,408 [INFO] com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Starting...
+2021-08-09 22:13:25,417 [WARN] com.zaxxer.hikari.util.DriverDataSource [http-nio-8080-exec-1] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-08-09 22:13:29,409 [INFO] com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Start completed.
+2021-08-09 22:13:43,086 [TRACE] com.hiepDH7.SpingBootService1.controller.LibraryController [http-nio-8080-exec-5] FATAL ERROR
+2021-08-09 23:32:34,973 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(84)-127.0.0.1] Application shutdown requested.
+2021-08-09 23:32:35,055 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(84)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-08-09 23:32:38,380 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(84)-127.0.0.1] HikariPool-1 - Shutdown completed.
