@@ -52,12 +52,14 @@ public class LibraryController {
 		libra.saveLib(library);
 		return ResponseEntity.status(HttpStatus.CREATED).build();
 	}
-	@PutMapping("/updateLib")
-	public ResponseEntity<String> updateLib(@RequestBody Library library) {
-		if(libra.findById(library.getID()) == null) {
-			return new ResponseEntity<String> ("can not found" + library.getID(),HttpStatus.IM_USED);
+	@PutMapping("/update/{id}")
+	public ResponseEntity<String> updateLib(@PathVariable(value = "id") String id) {
+		Library lib = libra.findById(id);
+		lib.setISBN("Yes");
+		if(libra.findById(id) == null) {
+			return new ResponseEntity<String> ("can not found" + id,HttpStatus.IM_USED);
 		}
-		libra.updateLib(library);
+		libra.updateLib(lib);
 		return ResponseEntity.status(HttpStatus.CREATED).build();
 	}
 	@DeleteMapping("/deleteLib/{id}")

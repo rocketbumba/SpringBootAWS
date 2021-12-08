@@ -32,7 +32,7 @@ public class ConnectToOracle {
 	public static Library layThongTin(String id) {
 		Library lib = new Library();
 		Connection ketNoi = layKetNoi();
-		String sql = "select * from STORAGE2 where ID = 1";
+		String sql = "select * from STORAGE2 where ID = '3'";
 		try {
 			PreparedStatement ps = ketNoi.prepareStatement(sql);
 			ResultSet rs = ps.executeQuery();
@@ -53,7 +53,7 @@ public class ConnectToOracle {
 		return lib;
 		
 	}
-//	public static void main(String[] args) {
-//		layThongTin("2");
-//	}
+	public static void main(String[] args) {
+		layThongTin("2");
+	}
 }

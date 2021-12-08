@@ -1,20 +1,200 @@
-2021-08-09 22:13:02,617 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Starting SpingBootService1Application using Java 16 on DESKTOP-QML3MFJ with PID 25544 (C:\Users\duong\Downloads\SpingBootService1\target\classes started by duong in C:\Users\duong\Downloads\SpingBootService1)
-2021-08-09 22:13:02,627 [DEBUG] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Running with Spring Boot v2.5.2, Spring v5.3.8
-2021-08-09 22:13:02,627 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] No active profile set, falling back to default profiles: default
-2021-08-09 22:13:03,936 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
-2021-08-09 22:13:03,950 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
-2021-08-09 22:13:03,951 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.48]
-2021-08-09 22:13:04,040 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
-2021-08-09 22:13:04,041 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1303 ms
-2021-08-09 22:13:04,654 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
-2021-08-09 22:13:04,667 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Started SpingBootService1Application in 2.577 seconds (JVM running for 3.83)
-2021-08-09 22:13:25,336 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-08-09 22:13:25,336 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
-2021-08-09 22:13:25,337 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
-2021-08-09 22:13:25,408 [INFO] com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Starting...
-2021-08-09 22:13:25,417 [WARN] com.zaxxer.hikari.util.DriverDataSource [http-nio-8080-exec-1] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
-2021-08-09 22:13:29,409 [INFO] com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Start completed.
-2021-08-09 22:13:43,086 [TRACE] com.hiepDH7.SpingBootService1.controller.LibraryController [http-nio-8080-exec-5] FATAL ERROR
-2021-08-09 23:32:34,973 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(84)-127.0.0.1] Application shutdown requested.
-2021-08-09 23:32:35,055 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(84)-127.0.0.1] HikariPool-1 - Shutdown initiated...
-2021-08-09 23:32:38,380 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(84)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-12-02 00:06:03,834 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Starting SpingBootService1Application using Java 16 on DESKTOP-QML3MFJ with PID 15172 (C:\Users\duong\Downloads\SpingBootService1\target\classes started by duong in C:\Users\duong\Downloads\SpingBootService1)
+2021-12-02 00:06:03,842 [DEBUG] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Running with Spring Boot v2.5.2, Spring v5.3.8
+2021-12-02 00:06:03,843 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] No active profile set, falling back to default profiles: default
+2021-12-02 00:06:05,159 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-12-02 00:06:05,181 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-12-02 00:06:05,182 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-12-02 00:06:05,287 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-12-02 00:06:05,287 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1357 ms
+2021-12-02 00:06:05,961 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-02 00:06:05,975 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Started SpingBootService1Application in 2.932 seconds (JVM running for 4.392)
+2021-12-02 00:06:33,561 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-02 00:06:33,562 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-12-02 00:06:33,563 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-12-02 00:06:33,640 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2021-12-02 00:07:13,352 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2021-12-02 00:08:43,826 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(6)-127.0.0.1] Application shutdown requested.
+2021-12-02 00:09:06,552 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Starting SpingBootService1Application using Java 16 on DESKTOP-QML3MFJ with PID 11348 (C:\Users\duong\Downloads\SpingBootService1\target\classes started by duong in C:\Users\duong\Downloads\SpingBootService1)
+2021-12-02 00:09:06,556 [DEBUG] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Running with Spring Boot v2.5.2, Spring v5.3.8
+2021-12-02 00:09:06,556 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] No active profile set, falling back to default profiles: default
+2021-12-02 00:09:07,912 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-12-02 00:09:07,925 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-12-02 00:09:07,925 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-12-02 00:09:08,006 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-12-02 00:09:08,007 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1354 ms
+2021-12-02 00:09:08,613 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-02 00:09:08,625 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Started SpingBootService1Application in 2.64 seconds (JVM running for 3.576)
+2021-12-02 00:09:14,694 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-02 00:09:14,694 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-12-02 00:09:14,696 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2021-12-02 00:09:14,764 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2021-12-02 00:10:27,237 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2021-12-02 00:10:34,164 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(5)-127.0.0.1] Application shutdown requested.
+2021-12-02 00:11:09,213 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Starting SpingBootService1Application using Java 16 on DESKTOP-QML3MFJ with PID 12956 (C:\Users\duong\Downloads\SpingBootService1\target\classes started by duong in C:\Users\duong\Downloads\SpingBootService1)
+2021-12-02 00:11:09,216 [DEBUG] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Running with Spring Boot v2.5.2, Spring v5.3.8
+2021-12-02 00:11:09,217 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] No active profile set, falling back to default profiles: default
+2021-12-02 00:11:10,661 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-12-02 00:11:10,676 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-12-02 00:11:10,676 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-12-02 00:11:10,773 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-12-02 00:11:10,773 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1473 ms
+2021-12-02 00:11:11,325 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-02 00:11:11,335 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Started SpingBootService1Application in 2.816 seconds (JVM running for 3.969)
+2021-12-02 00:11:15,428 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-02 00:11:15,429 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-12-02 00:11:15,431 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2021-12-02 00:11:15,476 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2021-12-02 00:11:33,379 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2021-12-02 00:11:36,711 [INFO] com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-4] HikariPool-1 - Starting...
+2021-12-02 00:11:36,717 [WARN] com.zaxxer.hikari.util.DriverDataSource [http-nio-8080-exec-4] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-12-02 00:11:40,377 [INFO] com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-4] HikariPool-1 - Start completed.
+2021-12-02 00:12:03,129 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2021-12-02 00:13:26,983 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2021-12-02 00:13:37,947 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2021-12-02 00:14:54,331 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2021-12-02 00:16:28,160 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2021-12-02 00:17:38,318 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(10)-127.0.0.1] Application shutdown requested.
+2021-12-02 00:17:38,360 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-12-02 00:17:41,002 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-12-02 00:18:00,877 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Starting SpingBootService1Application using Java 16 on DESKTOP-QML3MFJ with PID 15336 (C:\Users\duong\Downloads\SpingBootService1\target\classes started by duong in C:\Users\duong\Downloads\SpingBootService1)
+2021-12-02 00:18:00,883 [DEBUG] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Running with Spring Boot v2.5.2, Spring v5.3.8
+2021-12-02 00:18:00,884 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] No active profile set, falling back to default profiles: default
+2021-12-02 00:18:02,442 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-12-02 00:18:02,455 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-12-02 00:18:02,455 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-12-02 00:18:02,553 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-12-02 00:18:02,554 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1569 ms
+2021-12-02 00:18:03,101 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-02 00:18:03,111 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Started SpingBootService1Application in 2.731 seconds (JVM running for 3.825)
+2021-12-02 00:18:15,299 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-02 00:18:15,300 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-12-02 00:18:15,301 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-12-02 00:18:15,319 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-02 00:18:26,063 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.lang.String> com.hiepDH7.SpingBootService1.controller.LibraryController.updateLib(com.hiepDH7.SpingBootService1.controller.Library)]
+2021-12-02 00:19:38,216 [INFO] com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-5] HikariPool-1 - Starting...
+2021-12-02 00:19:38,228 [WARN] com.zaxxer.hikari.util.DriverDataSource [http-nio-8080-exec-5] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-12-02 00:19:42,005 [INFO] com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-5] HikariPool-1 - Start completed.
+2021-12-02 00:19:44,085 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2021-12-02 00:20:06,023 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2021-12-02 00:24:41,178 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(10)-127.0.0.1] Application shutdown requested.
+2021-12-02 00:24:41,223 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-12-02 00:24:43,890 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-12-02 00:24:51,448 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Starting SpingBootService1Application using Java 16 on DESKTOP-QML3MFJ with PID 12320 (C:\Users\duong\Downloads\SpingBootService1\target\classes started by duong in C:\Users\duong\Downloads\SpingBootService1)
+2021-12-02 00:24:51,450 [DEBUG] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Running with Spring Boot v2.5.2, Spring v5.3.8
+2021-12-02 00:24:51,451 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] No active profile set, falling back to default profiles: default
+2021-12-02 00:24:52,670 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-12-02 00:24:52,682 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-12-02 00:24:52,683 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-12-02 00:24:52,786 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-12-02 00:24:52,787 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1261 ms
+2021-12-02 00:24:53,408 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-02 00:24:53,418 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Started SpingBootService1Application in 2.447 seconds (JVM running for 3.313)
+2021-12-02 00:48:43,506 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(27)-127.0.0.1] Application shutdown requested.
+2021-12-02 01:26:37,607 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Starting SpingBootService1Application using Java 16 on DESKTOP-QML3MFJ with PID 18648 (C:\Users\duong\Downloads\SpingBootService1\target\classes started by duong in C:\Users\duong\Downloads\SpingBootService1)
+2021-12-02 01:26:37,610 [DEBUG] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Running with Spring Boot v2.5.2, Spring v5.3.8
+2021-12-02 01:26:37,611 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] No active profile set, falling back to default profiles: default
+2021-12-02 01:26:38,917 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-12-02 01:26:38,932 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-12-02 01:26:38,933 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-12-02 01:26:39,052 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-12-02 01:26:39,053 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1370 ms
+2021-12-02 01:26:39,711 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-02 01:26:39,723 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Started SpingBootService1Application in 2.668 seconds (JVM running for 4.07)
+2021-12-02 01:26:59,221 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-02 01:26:59,221 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-12-02 01:26:59,223 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-12-02 01:26:59,263 [TRACE] com.hiepDH7.SpingBootService1.controller.LibraryController [http-nio-8080-exec-1] FATAL ERROR
+2021-12-02 01:26:59,427 [INFO] com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-2] HikariPool-1 - Starting...
+2021-12-02 01:27:02,577 [INFO] com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-2] HikariPool-1 - Start completed.
+2021-12-02 01:28:25,150 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(5)-127.0.0.1] Application shutdown requested.
+2021-12-02 01:28:25,193 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(5)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-12-02 01:28:27,837 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(5)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-12-02 01:38:22,221 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Starting SpingBootService1Application using Java 16 on DESKTOP-QML3MFJ with PID 11536 (C:\Users\duong\Downloads\SpingBootService1\target\classes started by duong in C:\Users\duong\Downloads\SpingBootService1)
+2021-12-02 01:38:22,224 [DEBUG] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Running with Spring Boot v2.5.2, Spring v5.3.8
+2021-12-02 01:38:22,225 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] No active profile set, falling back to default profiles: default
+2021-12-02 01:38:23,522 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-12-02 01:38:23,544 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-12-02 01:38:23,544 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-12-02 01:38:23,662 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-12-02 01:38:23,662 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1372 ms
+2021-12-02 01:38:24,289 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-02 01:38:24,307 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Started SpingBootService1Application in 2.596 seconds (JVM running for 3.673)
+2021-12-02 01:45:31,849 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(9)-127.0.0.1] Application shutdown requested.
+2021-12-02 01:46:18,399 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Starting SpingBootService1Application using Java 16 on DESKTOP-QML3MFJ with PID 23880 (C:\Users\duong\Downloads\SpingBootService1\target\classes started by duong in C:\Users\duong\Downloads\SpingBootService1)
+2021-12-02 01:46:18,403 [DEBUG] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Running with Spring Boot v2.5.2, Spring v5.3.8
+2021-12-02 01:46:18,404 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] No active profile set, falling back to default profiles: default
+2021-12-02 01:46:20,460 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-12-02 01:46:20,478 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-12-02 01:46:20,479 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-12-02 01:46:20,621 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-12-02 01:46:20,623 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2140 ms
+2021-12-02 01:46:21,601 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-02 01:46:21,620 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Started SpingBootService1Application in 3.967 seconds (JVM running for 6.042)
+2021-12-02 01:48:57,820 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-02 01:48:57,821 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-12-02 01:48:57,823 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-12-02 01:48:57,930 [INFO] com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Starting...
+2021-12-02 01:49:01,539 [INFO] com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Start completed.
+2021-12-02 02:07:10,095 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(24)-127.0.0.1] Application shutdown requested.
+2021-12-02 02:07:10,223 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(24)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-12-02 02:07:31,358 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Starting SpingBootService1Application using Java 16 on DESKTOP-QML3MFJ with PID 23580 (C:\Users\duong\Downloads\SpingBootService1\target\classes started by duong in C:\Users\duong\Downloads\SpingBootService1)
+2021-12-02 02:07:31,361 [DEBUG] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Running with Spring Boot v2.5.2, Spring v5.3.8
+2021-12-02 02:07:31,362 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] No active profile set, falling back to default profiles: default
+2021-12-02 02:07:32,725 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-12-02 02:07:32,739 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-12-02 02:07:32,739 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-12-02 02:07:32,837 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-12-02 02:07:32,837 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1408 ms
+2021-12-02 02:07:33,471 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-02 02:07:33,483 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Started SpingBootService1Application in 2.774 seconds (JVM running for 4.314)
+2021-12-02 02:07:42,997 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-02 02:07:42,999 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-12-02 02:07:43,004 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2021-12-02 02:07:43,044 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-02 02:08:30,883 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-02 02:09:02,860 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-02 02:09:09,434 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-02 02:09:13,641 [INFO] com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-7] HikariPool-1 - Starting...
+2021-12-02 02:09:17,363 [INFO] com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-7] HikariPool-1 - Start completed.
+2021-12-02 02:11:10,314 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable '{id}' for method parameter type String is not present]
+2021-12-02 02:12:08,810 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(8)-127.0.0.1] Application shutdown requested.
+2021-12-02 02:12:08,851 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(8)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-12-02 02:12:11,481 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(8)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-12-02 02:12:13,017 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Starting SpingBootService1Application using Java 16 on DESKTOP-QML3MFJ with PID 17696 (C:\Users\duong\Downloads\SpingBootService1\target\classes started by duong in C:\Users\duong\Downloads\SpingBootService1)
+2021-12-02 02:12:13,047 [DEBUG] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Running with Spring Boot v2.5.2, Spring v5.3.8
+2021-12-02 02:12:13,048 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] No active profile set, falling back to default profiles: default
+2021-12-02 02:12:14,737 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-12-02 02:12:14,760 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-12-02 02:12:14,760 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-12-02 02:12:14,945 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-12-02 02:12:14,946 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1795 ms
+2021-12-02 02:12:15,699 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-02 02:12:15,715 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Started SpingBootService1Application in 3.565 seconds (JVM running for 4.693)
+2021-12-02 02:12:29,459 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-02 02:12:29,459 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-12-02 02:12:29,461 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-12-02 02:12:29,515 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable '{id}' for method parameter type String is not present]
+2021-12-02 02:14:21,563 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(5)-127.0.0.1] Application shutdown requested.
+2021-12-02 02:14:25,513 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Starting SpingBootService1Application using Java 16 on DESKTOP-QML3MFJ with PID 2412 (C:\Users\duong\Downloads\SpingBootService1\target\classes started by duong in C:\Users\duong\Downloads\SpingBootService1)
+2021-12-02 02:14:25,516 [DEBUG] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Running with Spring Boot v2.5.2, Spring v5.3.8
+2021-12-02 02:14:25,516 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] No active profile set, falling back to default profiles: default
+2021-12-02 02:14:26,629 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-12-02 02:14:26,639 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-12-02 02:14:26,640 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-12-02 02:14:26,716 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-12-02 02:14:26,716 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1127 ms
+2021-12-02 02:14:27,252 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-02 02:14:27,262 [INFO] com.hiepDH7.SpingBootService1.SpingBootService1Application [main] Started SpingBootService1Application in 2.439 seconds (JVM running for 3.269)
+2021-12-02 02:14:32,215 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-02 02:14:32,216 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-12-02 02:14:32,221 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2021-12-02 02:14:32,289 [INFO] com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Starting...
+2021-12-02 02:14:35,480 [INFO] com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Start completed.
+2021-12-02 02:14:51,472 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2021-12-02 02:19:07,900 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-02 02:19:49,360 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2021-12-02 02:19:59,268 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2021-12-02 02:33:06,309 [TRACE] com.hiepDH7.SpingBootService1.controller.LibraryController [http-nio-8080-exec-4] FATAL ERROR
+2021-12-02 02:33:58,793 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(24)-127.0.0.1] Application shutdown requested.
+2021-12-02 02:33:58,936 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(24)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-12-02 02:34:01,662 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(24)-127.0.0.1] HikariPool-1 - Shutdown completed.
